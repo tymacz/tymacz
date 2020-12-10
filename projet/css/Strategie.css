@@ -1,0 +1,256 @@
+@font-face{
+    font-family:"mapolice";
+    src: url('../font/Podkova-VariableFont_wght.ttf')
+}
+body{
+    background-image: url(../img/header/shutterstock_626207426.jpg);
+    background-attachment:fixed;
+    background-size:cover;
+    background-position: center;
+    font-family: "mapolice"}
+#afl{
+    width: 100px;
+    position: relative;
+    left: 10px;
+    top: 35px
+}
+#flag{
+    width: 100px;
+    position: relative;
+    right: 10px;
+    top: 10px
+}
+.texte{
+    background-color: #ffff;
+    border:  1px solid white;
+    opacity: 0.7;
+}
+li{
+    float: left;
+    width: 20%;
+   }
+li a {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+li a:hover{
+    background-image:linear-gradient(to right,#092601,#265902,#488C03,#74BF04,#84BF69);
+  color: white;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-image:linear-gradient(to top,#002671,#014C8F,#0666A7);
+    list-style-type: none;
+    width: 100%
+}
+.active{
+    background-image: linear-gradient(to right,#092601,#265902,#488C03,#74BF04,#84BF69);
+}
+p{font-size: 20px;
+    color:black;
+}
+h1{
+    font-size: 40px;
+text-align: center;}
+h2{font-size: 30px;
+text-decoration: underline;
+    text-align: center;
+}
+h3{
+    font-size: 25px
+}
+.tac{
+    margin-left: 20%;
+    width: 60%
+}
+
+#full-forward{
+    border-radius: 20px;
+    position: absolute;
+    top: 61%;
+    left: 30%;
+    width: 20px;
+    height: 20px;
+    background: red;
+}
+#full-back{
+    border-radius: 20px;
+    position: absolute;
+    top: 61%;
+    left: 69%;
+    width: 20px;
+    height: 20px;
+    background: red;
+}
+#forward-pockets1{
+    border-radius: 20px;
+    position: absolute;
+    top: 51%;
+    left: 28%;
+    width: 20px;
+    height: 20px;
+    background: red;
+}
+#forward-pockets2{
+    border-radius: 20px;
+    position: absolute;
+    top: 71%;
+    left: 28%;
+    width: 20px;
+    height: 20px;
+    background: red;
+}
+#back-pockets1{
+    border-radius: 20px;
+    position: absolute;
+    top: 51%;
+    left: 71%;
+    width: 20px;
+    height: 20px;
+    background: red;
+}
+#back-pockets2{
+    border-radius: 20px;
+    position: absolute;
+    top: 71%;
+    left: 71%;
+    width: 20px;
+    height: 20px;
+    background: red;
+}
+#centre-half-forward{
+    border-radius: 20px;
+    position: absolute;
+    top: 61%;
+    left: 39%;
+    width: 20px;
+    height: 20px;
+    background: red;
+}
+#centre-half-back{
+    border-radius: 20px;
+    position: absolute;
+    top: 61%;
+    left: 60%;
+    width: 20px;
+    height: 20px;
+    background: red;
+}
+#half-forward-flank1{
+    border-radius: 20px;
+     position: absolute;
+    top: 78%;
+    left: 37%;
+    width: 20px;
+    height: 20px;
+    background: red;
+}
+#half-forward-flank2{
+    border-radius: 20px;
+    position: absolute;
+    top: 40%;
+    left: 37%;
+    width: 20px;
+    height: 20px;
+    background: red;
+}
+#half-back-flanks1{
+    border-radius: 20px;
+    position: absolute;
+    top: 40%;
+    left: 63%;
+    width: 20px;
+    height: 20px;
+    background: red;
+}
+#half-back-flanks2{
+    border-radius: 20px;
+    position: absolute;
+    top: 78%;
+    left: 63%;
+    width: 20px;
+    height: 20px;
+    background: red;
+}
+#wings1{
+    border-radius: 20px;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    background: red;
+}
+#wings2{
+    border-radius: 20px;
+     position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    background: red;
+}
+#ruckman{
+    border-radius: 20px;
+    position: absolute;
+    top: 60%;
+    left: 53%;
+    width: 20px;
+    height: 20px;
+    background: red;
+}
+#ruck-rover{
+    border-radius: 20px;
+    position: absolute;
+    top: 55%;
+    left: 45%;
+    width: 20px;
+    height: 20px;
+    background: red;}
+#rovers1{
+    border-radius: 20px;
+    position: absolute;
+    top: 70%;
+    left: 47%;
+    width: 20px;
+    height: 20px;
+    background: red;}
+#rovers2{
+    border-radius: 20px;
+    position: absolute;
+    top: 70%;
+    left: 53%;
+    width: 20px;
+    height: 20px;
+    background: red;}
+
+div{width: 200px;
+    background: white;
+    opacity: 0;}
+form:active div{
+    opacity: 1
+}
+
+
+form{
+    transition: 5s;
+    animation: slidedown 5s;
+    
+}
+@keyframes slidedown{
+    0%{
+        transform: scale(0);
+        transform: translateY(200px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        transform: scale(1);
+        opacity: 1;
+    }
+}

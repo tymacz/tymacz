@@ -1,0 +1,92 @@
+@font-face{
+    font-family:"mapolice";
+    src: url('../font/Podkova-VariableFont_wght.ttf')
+}
+body{
+    background-image: url(../img/header/shutterstock_626207426.jpg);
+    background-attachment:fixed;
+    background-size:cover;
+    background-position: center;
+    color:black;
+    font-family: "mapolice"}
+.texte{
+    background-color: #ffff;
+    border:  1px solid white;
+    opacity: 0.7;
+}
+
+
+#afl{
+    width: 100px;
+    position: relative;
+    left: 10px;
+    top: 35px
+}
+#flag{
+    width: 100px;
+    position: relative;
+    right: 10px;
+    top: 10px
+}
+
+
+nav li{
+    float: left;
+    width: 20%;
+   }
+nav li a {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+nav li a:hover{
+    background-image:linear-gradient(to right,#092601,#265902,#488C03,#74BF04,#84BF69);
+  color: white;
+}
+nav ul{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-image:linear-gradient(to top,#002671,#014C8F,#0666A7);
+    list-style-type: none;
+    width: 100%
+}
+.active{
+    background-image: linear-gradient(to right,#092601,#265902,#488C03,#74BF04,#84BF69);
+}
+
+p{font-size: 20px;
+    color:black;
+}
+
+h1{font-size: 40px;
+text-align: center;}
+h2{font-size: 30px;
+text-decoration: underline;
+    text-align: center
+    }
+h3{font-size: 25px;
+}
+.faute li{
+    list-style-type: none;
+}
+.faute li::before{
+    content: '.';
+    display: inline-block;
+    background-image: url(../img/red%20cross.png);
+    background-size: cover;
+    width:20px;
+    
+}
+.faute{
+    margin-left: 30%}
+video{
+    border-left: 304px solid rgba(255,255,255,.7);
+    border-right: 304px solid rgba(255,255,255,.7);
+    border-bottom: 10px solid rgba(255,255,255,.7);
+        
+    
+ }
+
